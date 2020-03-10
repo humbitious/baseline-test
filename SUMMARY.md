@@ -7,13 +7,13 @@
 * [Getting Started with Radish34](radish34-demo/radish34.md)
 * [Radish34 Story](radish34-demo/radish34-story.md)
 
-## The Baseline Protocol
+## The Baseline Protocol <a id="baseline-protocol"></a>
 
-* [The Baseline Protocol](the-baseline-protocol/protocol.md)
-* [Open Source Community](the-baseline-protocol/community.md)
-* [Baseline Process](the-baseline-protocol/process.md)
-* [Standards](the-baseline-protocol/standards.md)
-* [Driving Mainnet Evolution](the-baseline-protocol/mainnet.md)
+* [The Baseline Protocol](baseline-protocol/protocol.md)
+* [Open Source Community](baseline-protocol/community.md)
+* [Baseline Process](baseline-protocol/process.md)
+* [Standards](baseline-protocol/standards.md)
+* [Driving Mainnet Evolution](baseline-protocol/mainnet.md)
 
 ## Components
 
