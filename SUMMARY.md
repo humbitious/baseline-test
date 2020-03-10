@@ -5,11 +5,12 @@
 ## Radish34 Demo
 
 * [Getting Started with Radish34](radish34-demo/radish34.md)
+* [Radish34 Visualization](radish34-demo/visualization.md)
 * [Modifying Radish34](radish34-demo/modifying-radish34.md)
-* [Converting Radish34 to Baseline](radish34-demo/radish34-to-baseline.md)
+* [From Demo to Protocol](radish34-demo/radish34-to-baseline.md)
 * [Radish34 Story](radish34-demo/radish34-story.md)
 
-## The Baseline Protocol <a id="baseline-protocol"></a>
+## Baseline Protocol
 
 * [The Baseline Protocol](baseline-protocol/protocol.md)
 * [Open Source Community](baseline-protocol/community.md)
