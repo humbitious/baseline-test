@@ -12,3 +12,11 @@ Even if Radish34 were the only application we wanted to build, the code still re
 
 
 
+
+
+### Currently observed performance metrics
+
+MSA Takes x minutes, costs this much.....
+
+
+
