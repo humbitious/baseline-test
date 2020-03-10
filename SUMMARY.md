@@ -16,6 +16,7 @@
 * [Baseline Process](baseline-protocol/process.md)
 * [Standards](baseline-protocol/standards.md)
 * [Driving Mainnet Evolution](baseline-protocol/mainnet.md)
+* [Roadmap](baseline-protocol/roadmap.md)
 
 ## Components
 
