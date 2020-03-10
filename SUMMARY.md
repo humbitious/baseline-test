@@ -6,9 +6,8 @@
 
 * [Getting Started with Radish34](radish34-demo/radish34.md)
 * [Radish34 Visualization](radish34-demo/visualization.md)
-* [Modifying Radish34](radish34-demo/modifying-radish34.md)
+* [Modifying Radish34](radish34-demo/mods.md)
 * [From Demo to Protocol](radish34-demo/radish34-to-baseline.md)
-* [Radish34 Story](radish34-demo/radish34-story.md)
 
 ## Baseline Protocol
 
@@ -21,9 +20,11 @@
 
 ## Components
 
-* [Baseline Server](components/baseline-server.md)
-* [Zero Knowledge Service](components/zero-knowledge-service.md)
-* [Messenger](components/messenger.md)
+* [Baseline Server](components/baseline-server/README.md)
+  * [Messenger](components/baseline-server/messenger.md)
+  * [Zero Knowledge Service](components/baseline-server/zero-knowledge-service.md)
+* [On-Chain Functions](components/on-chain.md)
+* [APIs](components/apis.md)
 
 ## Baselining Your Product <a id="baselining"></a>
 

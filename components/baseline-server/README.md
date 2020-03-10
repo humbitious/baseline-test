@@ -6,3 +6,5 @@ Installed in the Party's infrastructure on-prem or in Cloud.
 
 
 
+Orchestration \(not the same as devops orchestration\)
+
