@@ -1,5 +1,9 @@
 # Baseline Process
 
+## Baselining Step-by-Step
+
+
+
 #### Local System of Record
 
 Parties store data in local systems of record \(mongo, oracle, sap,...could even be a private or public blockchain, etc\). A "baseline server" is given CRUD access to this, if the system of record itself is not already "baseline compliant/enabled" \(which we'd hope is typical in future\).
