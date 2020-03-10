@@ -8,7 +8,13 @@ description: >-
 
 The Radish34 demo is a reference implementation of the Baseline Protocol. 
 
-## Setting up
+## Prerequisites
+
+Install Git
+
+Install cURL
+
+etc etc etc.
 
 Becoming a super hero is a fairly straight forward process:
 
