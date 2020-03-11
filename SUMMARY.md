@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Getting Started](README.md)
+* [Welcome](README.md)
 
 ## Radish34 Demo
 
