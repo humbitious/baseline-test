@@ -12,7 +12,8 @@
 ## Baseline Protocol
 
 * [The Baseline Protocol](baseline-protocol/protocol.md)
-* [Open Source Community](baseline-protocol/community.md)
+* [Open Source Community](baseline-protocol/community/README.md)
+  * [Supporting Community Members](baseline-protocol/community/supporting-community-members.md)
 * [Baseline Process](baseline-protocol/process.md)
 * [Standards](baseline-protocol/standards.md)
 * [Driving Mainnet Evolution](baseline-protocol/mainnet.md)
