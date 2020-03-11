@@ -15,6 +15,7 @@
 * [Open Source Community](baseline-protocol/community/README.md)
   * [Supporting Community Members](baseline-protocol/community/supporting-community-members.md)
   * [Community Governance](baseline-protocol/community/community-governance.md)
+  * [Community Tools](baseline-protocol/community/community-tools.md)
 * [Baseline Process](baseline-protocol/process.md)
 * [Performance Stats and Specs](baseline-protocol/performance.md)
 * [Standards](baseline-protocol/standards.md)
