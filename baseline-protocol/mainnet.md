@@ -29,3 +29,13 @@ The Baseline Protocol can provide utility for a variety of uses across industrie
 
 
 
+## Barriers to Enterprise Adoption of Public Blockchain
+
+\[List the 10-12 issues and talk about how the baseline protocol was created to avoid most of them and bring the rest within the risk profile of traditional Internet-capable IT systems.\]  
+
+{% file src="../.gitbook/assets/why-i-wont-use-the-mainnet-ten-problems-6.pdf" caption="Why CECIL the CISO Won\'t Use Public Blockchain" %}
+
+
+
+
+
