@@ -1,10 +1,3 @@
----
-description: >-
-  This page should have a summary of the project, chart or two, understanding
-  Baseline Protocol versus Radish Demo and the Baseline Open Source Project.
-  Also link to license.
----
-
 # Welcome
 
 ## Welcome to the Baseline Protocol Community
@@ -12,22 +5,22 @@ description: >-
 The Baseline Protocol initiative was [announced](https://consensys.net/blog/press-release/ey-and-consensys-announce-formation-of-baseline-protocol-initiative-to-make-ethereum-mainnet-safe-and-effective-for-enterprises/) on March 4, 2020 and launched as an [OASIS](https://oasis-open-projects.org/) open source project on \[ March X, 2020 \], supported by fourteen founding companies. More companies joined the effort shortly thereafter and continue to do so. \[Link to full list and roles.\]
 
 The work of the community is maintained under a public domain license at   
-[**https://github.com/ethereum-oasis/baseline**](https://github.com/ethereum-oasis/baseline). Here you will find three things:
+[**https://github.com/ethereum-oasis/baseline**](https://github.com/ethereum-oasis/baseline). 
 
-* The code of a procurement demo called Radish34, which led to the formation of the Baseline Protocol initiative. 
-* A folder that will contain the specifications, reference code and other material constituting the Baseline Protocol, as the community derives it from the initial Radish34 proof of concept. 
-* Issues the community will write and use to propose, prioritize and organize work. 
-* Lots of opportunities to get informed, get involved, and get value out of defining requirements, developing reusable components, and ultimately deploying the Baseline Protocol in your own offerings.
+You will find in the Repo the code of a procurement demo called **Radish34**, which led to the formation of the Baseline Protocol initiative. And separately, there is a folder that will contain the specifications, reference code and other material constituting the **Baseline Protocol**, as the community derives it from the initial Radish34 proof of concept.
 
-\[Two lines on how to get actively involved in the community. Link to web site, twitter, etc.\]
+There are lots of opportunities to get informed, get involved, and **get value** out of defining requirements, developing reusable components, and ultimately deploying the Baseline Protocol in your own offerings.
+
+**Go** [**here**](baseline-protocol/community/) **for details on how to get involved.**
 
 ## The Baseline Protocol
 
-The Baseline Protocol is:
+The Baseline Protocol is an approach to using the public [Mainnet](baseline-basics/glossary.md#mainnet) as a common frame of reference between systems, including traditional corporate systems of record, any kind of database, and even different blockchains or DLTs. It is particularly promising as a way to reduce capital expense and other overheads while increasing operational integrity when automating business processes across multiple companies.
 
-* An approach to using the public [Mainnet](baseline-basics/glossary.md#mainnet) as a common frame of reference between corporate systems of record, one that makes sense to security and performance-minded technology officers.  
-* An architecture that helps reduce overheads and increase operational integrity when automating business processes across multiple companies. 
-* 
+ The approach is designed to appeal to security and performance-minded technology officers.
+
+You can find all the details on the Baseline Protocol [here](baseline-protocol/protocol.md).
+
 ## The Radish34 Demo
 
 
