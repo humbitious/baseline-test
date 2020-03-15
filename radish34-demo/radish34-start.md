@@ -25,24 +25,26 @@ After you've done that, log in to the Github package registry by running
 1. As part of the development environment, we assume a procurement use-case with three users: \(1\) buyer and \(2\) supplier organizations.
 2. Run `npm ci && npm run postinstall`. \*\* This takes about 6 minutes to clean install npm packages in root and all sub directories \*\*
 3. Run `docker-compose build` to create the latest versions of the docker containers. \*\* Only do this the first time or when service source code is changed \*\*. \*\* This takes about 40 minutes for a fresh build \*\*
-4. Run `npm run setup` to perform zk-SNARK trusted setups for the circuits that are contained in the `/zkp/circuits`. \*\* This takes about 5-10 minutes to complete \*\* Exmaple logs:
+4. Run `npm run setup` to perform zk-SNARK trusted setups for the circuits that are contained in the `/zkp/circuits`. \*\* This takes about 5-10 minutes to complete \*\* Example logs:
 
-   ```text
-   *** Starting zokrates container ***
-   radish-34_radish-zkp-watch_1 is up-to-date
-   mongo-buyer is up-to-date
-   radish-34_radish-zkp_1 is up-to-date
+\[ Need to fix the code segments below...maybe....at least it scrolls. \]
 
-   *** Running setup for createMSA ***
-   {"verificationKey":{"H":[["0x28cbb3929742ba7f874746fb890540017813ef404ae38c7073bf030be3577194","0x0974c59917efe8f2aa0049ded97d3103a300ca864c122b1d4c13197d2548c550"],["0x205078b5f99a3e041d75a8d3eb0cafe24da9649271275861bafbfa074a946f68","0x23c46a91322035df6f503929d00efc95ab970633c0b9cdd521f26831137ce398"]],"Galpha":["0x030cb162dc5bb2112b625de1cff121dc0e867068f496d3862d8d27e144c13c64","0x143e8abb0bcdb24417a01bc581bff336c2539f9b48c39c5b1447a5e4ca8a79c6"],"Hbeta":[["0x2e1a7b77ee31735d5b8dd25a032ea8bfda27c5905bec6d3ee3d0b01169ed7961","0x149b8fb268d495e15e642da2bd172791fd65bf9cdc49da8f1b16c34635ede869"],["0x2ccd66691257c87cdbd98efad37a0f60422a1e4d73dd2c18ebd87fc8522db9be","0x15437cb448e5bf0cf3067e2de941cf4ed73f6f732dac9cf19f0e89555f6d7a36"]],"Ggamma":["0x0c132ee8e18b7dd37a7332f6138d2c30826910652de0df3d188fe3597da2208d","0x2cced0ec0c467fac9b6774739b696d2fd1074cdef99da52c986838cea132bbe8"],"Hgamma":[["0x060ae04d4f50d8f01ca4fad8a29fd6d0d8f6eae762c1345bbebab3d8ca8cd993","0x0bb22b3de71c381a8bbd3b40633f3c2db119b75f5874a28bf4f221bae4fa9d73"],["0x13aa539b007374ee850da69ee1b91869ca4d64337a41e2cf4eaef844a28c251c","0x299c36c9cc3aab3c7df10bff199bb66c6d954dfa4ba30b5b33705a4b5bf0708e"]],"query":[["0x2ea45bf055ff829b0348d5c2b0619371de5835c0e28dd63c3d806aa06e3890f5","0x2aa391d2cb16b76693d1dfbbe0272861e38e7cf457f38d0f93d5a7751f3fa7a0"],["0x18c4fa762ba68bdaabb02658ad113cc22333107d73ebc0f508e4c4f2f5a3aaf2","0x075062f8a367e48fc22c99752a8e0211148462c8dab0c87d4c12c85545594e07"]]}}
-   *** Running setup for createPO ***
-   {"verificationKey":{"H":[["0x2d5f6d4b7d13b5cebd8d6cece9dbce5ecb04d3ea80217e0426c2b1d72c2d972d","0x02ff4a4667c3fead0b270277aba0fef1a8f2e94e85b160d19385c089ac7cf501"],["0x25ddb0f3266fc2b2efefa6247f24355a327353f6ccfb5ca9fb5ab1352370a21b","0x1c078f4b5447ef774133731e301b43a9c8657123409333efffa74486a86fb47f"]],"Galpha":["0x0d36fc5d69ce3f50ec40bb9d3540fb1d898a2f91d48932bf55cfcb304af635e3","0x1a555461b3ac218af5fca356d75b9d0eecce6bb8d44aab275141e1a980077a67"],"Hbeta":[["0x29a47d9266d3a915ba517cd2d099ef4872c568d86d69c63ff5fa55aa7a5f6284","0x1125edf840c07eda41a962f71f1e0d8b4c0052587c6b6918ebb3a267c43b6255"],["0x2d15aefb7f2a3374e28671f5b4b5dc1db80660656b16fd81953a6104a95b61ef","0x2e43d6f090a7402b948824568e69a956646a8ddc79eba4bfad65da4863663ce5"]],"Ggamma":["0x11cf0010dc05657a0933a3366efab90a055ef76c926af3c94cd79df0daace624","0x138c005e154787838b851afc869be363e089b2e3786c197c1a7a7f8023e2adcf"],"Hgamma":[["0x267470583b8333a4c8b81331d12d6badfd49c416810fd23006ec393f812c8a56","0x14321eed994c76846d2b8b532e7995d3cb76c022ab05af426a99e98a53076779"],["0x0cfcd3abdf0119481374bf209c71f7afcd8920b85de0e95294933ddd3c16c92a","0x23871104deb8a7c03efaf1ede048dd9f968b4602ea7f824a5c8d4aaa1e6f4143"]],"query":[["0x1a7251f3ac3930802d03eae0f4d8187a62bcf752b33cedd98defe74ddc07cd8f","0x06a13bbc659fae79a8e0ab7fa474d4ae451d42633116e42e17334ee21a847fc5"],["0x26620d77c65980fb18256ee17bc0e80adc30ddb4c54cd61154432d713889ea33","0x237af6ad935a45192f8a279e3543bca9b04aa547d16501c3c164c9ef38ad59c0"]]}}
-   *** Setups complete ***
-   ```
+```text
+*** Starting zokrates container ***
+radish-34_radish-zkp-watch_1 is up-to-date
+mongo-buyer is up-to-date
+radish-34_radish-zkp_1 is up-to-date
 
-5. Run `npm run build` to compile the smart contracts in `contracts` to JSON files \(containing ABI and Bytecode key value pairs\) in the `artifacts` folder needed for deployment. \*\* This takes less than 15 seconds to run \*\*
-6. Make sure you download and have the following files stored in your `/config` directory: `config-buyer.json`, `config-supplier1.json`, `config-supplier2.json`.
-7. Run `npm run deploy` to deploy the smart contracts. \*\* This takes about 2 minutes \*\*
+*** Running setup for createMSA ***
+{"verificationKey":{"H":[["0x28cbb3929742ba7f874746fb890540017813ef404ae38c7073bf030be3577194","0x0974c59917efe8f2aa0049ded97d3103a300ca864c122b1d4c13197d2548c550"],["0x205078b5f99a3e041d75a8d3eb0cafe24da9649271275861bafbfa074a946f68","0x23c46a91322035df6f503929d00efc95ab970633c0b9cdd521f26831137ce398"]],"Galpha":["0x030cb162dc5bb2112b625de1cff121dc0e867068f496d3862d8d27e144c13c64","0x143e8abb0bcdb24417a01bc581bff336c2539f9b48c39c5b1447a5e4ca8a79c6"],"Hbeta":[["0x2e1a7b77ee31735d5b8dd25a032ea8bfda27c5905bec6d3ee3d0b01169ed7961","0x149b8fb268d495e15e642da2bd172791fd65bf9cdc49da8f1b16c34635ede869"],["0x2ccd66691257c87cdbd98efad37a0f60422a1e4d73dd2c18ebd87fc8522db9be","0x15437cb448e5bf0cf3067e2de941cf4ed73f6f732dac9cf19f0e89555f6d7a36"]],"Ggamma":["0x0c132ee8e18b7dd37a7332f6138d2c30826910652de0df3d188fe3597da2208d","0x2cced0ec0c467fac9b6774739b696d2fd1074cdef99da52c986838cea132bbe8"],"Hgamma":[["0x060ae04d4f50d8f01ca4fad8a29fd6d0d8f6eae762c1345bbebab3d8ca8cd993","0x0bb22b3de71c381a8bbd3b40633f3c2db119b75f5874a28bf4f221bae4fa9d73"],["0x13aa539b007374ee850da69ee1b91869ca4d64337a41e2cf4eaef844a28c251c","0x299c36c9cc3aab3c7df10bff199bb66c6d954dfa4ba30b5b33705a4b5bf0708e"]],"query":[["0x2ea45bf055ff829b0348d5c2b0619371de5835c0e28dd63c3d806aa06e3890f5","0x2aa391d2cb16b76693d1dfbbe0272861e38e7cf457f38d0f93d5a7751f3fa7a0"],["0x18c4fa762ba68bdaabb02658ad113cc22333107d73ebc0f508e4c4f2f5a3aaf2","0x075062f8a367e48fc22c99752a8e0211148462c8dab0c87d4c12c85545594e07"]]}}
+*** Running setup for createPO ***
+{"verificationKey":{"H":[["0x2d5f6d4b7d13b5cebd8d6cece9dbce5ecb04d3ea80217e0426c2b1d72c2d972d","0x02ff4a4667c3fead0b270277aba0fef1a8f2e94e85b160d19385c089ac7cf501"],["0x25ddb0f3266fc2b2efefa6247f24355a327353f6ccfb5ca9fb5ab1352370a21b","0x1c078f4b5447ef774133731e301b43a9c8657123409333efffa74486a86fb47f"]],"Galpha":["0x0d36fc5d69ce3f50ec40bb9d3540fb1d898a2f91d48932bf55cfcb304af635e3","0x1a555461b3ac218af5fca356d75b9d0eecce6bb8d44aab275141e1a980077a67"],"Hbeta":[["0x29a47d9266d3a915ba517cd2d099ef4872c568d86d69c63ff5fa55aa7a5f6284","0x1125edf840c07eda41a962f71f1e0d8b4c0052587c6b6918ebb3a267c43b6255"],["0x2d15aefb7f2a3374e28671f5b4b5dc1db80660656b16fd81953a6104a95b61ef","0x2e43d6f090a7402b948824568e69a956646a8ddc79eba4bfad65da4863663ce5"]],"Ggamma":["0x11cf0010dc05657a0933a3366efab90a055ef76c926af3c94cd79df0daace624","0x138c005e154787838b851afc869be363e089b2e3786c197c1a7a7f8023e2adcf"],"Hgamma":[["0x267470583b8333a4c8b81331d12d6badfd49c416810fd23006ec393f812c8a56","0x14321eed994c76846d2b8b532e7995d3cb76c022ab05af426a99e98a53076779"],["0x0cfcd3abdf0119481374bf209c71f7afcd8920b85de0e95294933ddd3c16c92a","0x23871104deb8a7c03efaf1ede048dd9f968b4602ea7f824a5c8d4aaa1e6f4143"]],"query":[["0x1a7251f3ac3930802d03eae0f4d8187a62bcf752b33cedd98defe74ddc07cd8f","0x06a13bbc659fae79a8e0ab7fa474d4ae451d42633116e42e17334ee21a847fc5"],["0x26620d77c65980fb18256ee17bc0e80adc30ddb4c54cd61154432d713889ea33","0x237af6ad935a45192f8a279e3543bca9b04aa547d16501c3c164c9ef38ad59c0"]]}}
+*** Setups complete ***
+```
+
+1. Run `npm run build` to compile the smart contracts in `contracts` to JSON files \(containing ABI and Bytecode key value pairs\) in the `artifacts` folder needed for deployment. \*\* This takes less than 15 seconds to run \*\*
+2. Make sure you download and have the following files stored in your `/config` directory: `config-buyer.json`, `config-supplier1.json`, `config-supplier2.json`.
+3. Run `npm run deploy` to deploy the smart contracts. \*\* This takes about 2 minutes \*\*
 
    * This docker container first deploys both the Registry contract and the OrgRegistry contract.
    * Then it registers \(1\) Buyer and \(2\) Supplier organizations. The corresponding `/config/config-${role}.json` files are updated with the newly deployed contract addresses.
@@ -148,7 +150,7 @@ After you've done that, log in to the Github package registry by running
       Please restart the radish-apis for the config to take effect
    ```
 
-8. run `docker-compose up -d`
+4. run `docker-compose up -d`
 
    * This will start all `radish` containers
    * Wait about 10 seconds to give containers time to complete their initialization routines
@@ -171,8 +173,8 @@ After you've done that, log in to the Github package registry by running
       radish-api-buyer        | 🚀 Subscriptions ready at ws://localhost:8001/graphql`
    ```
 
-9. Run integration tests: `npm run test`
-10. Within about 5 minutes, UI is loaded on `http://radish34-ui.docker` on your local browser
+5. Run integration tests: `npm run test`
+6. Within about 5 minutes, UI is loaded on `http://radish34-ui.docker` on your local browser
 
 ### Troubleshooting
 
