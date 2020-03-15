@@ -2,7 +2,7 @@
 description: Describe how we are going to move from the demo code to the protocol code
 ---
 
-# From Demo to Protocol
+# From POC to Protocol
 
 ### Abstraction
 

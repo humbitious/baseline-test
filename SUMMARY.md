@@ -8,7 +8,7 @@
 * [Radish34 Interactive Demo](radish34-demo/demo.md)
 * [Getting Started with Radish34](radish34-demo/radish34-start.md)
 * [Modifying Radish34](radish34-demo/mods.md)
-* [From Demo to Protocol](radish34-demo/radish34-to-baseline.md)
+* [From POC to Protocol](radish34-demo/poc-to-protocol.md)
 
 ## Baseline Protocol
 
