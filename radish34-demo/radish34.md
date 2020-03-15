@@ -12,7 +12,7 @@ Second, supply chain has been a classic starting point for enterprise blockchain
 
 Even when different companies are partners in a single supply chain, there are things Party A shouldn't know about the relationship or activities of Parties B and C, even if those activities support the same Workflow for the same set of goods.  The Radish34 team had to find a way to coordinate companies without anyone that was maintaining the integrity of the ledger learning anything about the business activities or relationships of the participants. 
 
-It turns out this problem is in some ways even more insidious for private blockchains than for public networks. And so the choice was to show how the public Ethereum network could be used in a confidential procurement scenario without anyone being able to analyze the ledger and learn about the cadence, volume or particulars of any Party's business.
+It turns out, ironically, that this problem is in some ways more insidious for private blockchains than for public networks, given the relative ease of analysis an attacker with access can perform on a small group of known counter-parties. And so the choice was to show how the public Ethereum network could be used in a confidential procurement scenario without anyone being able to analyze the ledger and learn about the cadence, volume or particulars of any Party's business.
 
 ### The Volume Discount Problem
 
