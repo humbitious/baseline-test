@@ -4,7 +4,7 @@ description: 'After migration to /baseline, point this file to /radish34 readme.
 
 # Getting Started with Radish34
 
-If you’ve read the [Radish34 Explained](radish34.md) section or played with the [user experience demo](visualization.md) and now want to build and run the POC yourself, you’re in the right place.
+If you’ve read the [Radish34 Explained](radish34.md) section or played with the [user experience demo](demo.md) and now want to build and run the POC yourself, you’re in the right place.
 
 ### Prerequisites
 

@@ -5,7 +5,7 @@ description: >-
   flow.
 ---
 
-# Radish34 Visualization
+# Radish34 Interactive Demo
 
 You can build and run your own functioning instance of the Radish34 proof of concept [here](radish34.md).  But if you want to see what it might be like for a group of companies to use the Baseline Protocol in a wider set of supply chain operations, here is an interactive visualization:
 
