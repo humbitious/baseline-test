@@ -4,7 +4,7 @@ description: 'After migration to /baseline, point this file to /radish34 readme.
 
 # Getting Started with Radish34
 
-**Radish34** is a product procurement application that utilizes the **Baseline Protocol** to gain unprecedented data integrity while maintaining privacy and security for its users.
+If you’ve read the [Radish34 Explained](radish34.md) section or played with the [user experience demo](visualization.md) and now want to build and run the POC yourself, you’re in the right place.
 
 ### Prerequisites
 

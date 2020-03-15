@@ -5,8 +5,8 @@
 ## Radish34 Demo
 
 * [Radish34 Explained](radish34-demo/radish34.md)
-* [Getting Started with Radish34](radish34-demo/radish34-start.md)
 * [Radish34 Visualization](radish34-demo/visualization.md)
+* [Getting Started with Radish34](radish34-demo/radish34-start.md)
 * [Modifying Radish34](radish34-demo/mods.md)
 * [From Demo to Protocol](radish34-demo/radish34-to-baseline.md)
 
